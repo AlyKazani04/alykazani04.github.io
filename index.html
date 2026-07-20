@@ -1,30 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aly:Portfolio</title>
-    <link rel="stylesheet" href="./index.css"/>
-</head>
-<body>
-    <div id="header">
-        <h1 id="name">Aly</h1>
-    </div>
-    
-    <p>Welcome to the portfolio, there's much left to do, but here's what i got so far.</p>
-    
-    <section id="about">
-        <h2>About Me</h2>
-    
-        <p>I am a 3rd year Comp-Sci student at FAST-NUCES, Karachi. I love learning new things and tinkering with stuff. When I'm not learning a new language/framework or setting up local Docker container networks, I'm probably tweaking my system configurations or reading a murim manhwa.</p>
-    </section>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="name">Aly Muhammad Kazani</h1>
+    </header>
 
-    <hr>
+    <p>
+      Welcome to the portfolio, there's much left to do, but here's what i got
+      so far.
+    </p>
+    <hr />
 
-    <a href="./react-practice">
-        Link to React Portfolio
-    </a>
+    <main>
+      <div class="main-col">
+        <section class="about">
+          <h2>About Me</h2>
+          <p>
+            I am a 3rd year Comp-Sci student at FAST-NUCES, Karachi. I love
+            learning new things and tinkering with stuff. When I'm not learning
+            a new language/framework or setting up local Docker container
+            networks, I'm probably tweaking my system configurations or reading
+            a murim manhwa.
+          </p>
+        </section>
 
+        <section class="projects">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <a href="./react-practice" class="card" target="_blank">Link to React Projects</a>
+            <a href="https://github.com/AlyKazani04/notes-fullstack" class="card" target="_blank">Notes — Fullstack</a>
+          </div>
+        </section>
+      </div>
+      
+      <div class="secondary-col">
+        <section class="systime card">
+          <h4>System Time</h4>
+          <p id="time"></p>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <!-- TODO: Add Skills here -->
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Links</h3>
+      <div class="footer-links">
+        <a href="https://github.com/AlyKazani04" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/aly-kazani/" target="_blank">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/32258482/aly" target="_blank">
+          Stack Overflow
+        </a>
+        <!-- <a href="https://github.com/AlyKazani04" class="card">Github</a> -->
+      </div>
+      <pre>2026 &copy; Aly<br>All Rights Reserved.</pre>
+    </footer>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
