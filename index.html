@@ -17,7 +17,10 @@
     <main>
       <section class="hero">
         <div>
-          <h2>I design type-safe, strictly-validated API layers with clear endpoint documentation for seamless frontend integration.</h2>
+          <h2>
+            I design type-safe, strictly-validated API layers with clear
+            endpoint documentation for seamless frontend integration.
+          </h2>
           <button>Some Action</button>
         </div>
         <div>
@@ -38,12 +41,38 @@
       </section>
       <section class="projects">
         <h2>Projects</h2>
-        <a
-          href="https://github.com/AlyKazani04/notes-fullstack"
-          class="card"
-          target="_blank"
-          >Notes — Fullstack</a
-        >
+        <div class="projects-container">
+          <div class="card project-card">
+            <h3 class="project-title">A Fullstack Notes App</h3>
+            <div class="project-content">
+              <div>
+                <p>
+                  Delivered a functional, fully typed full-stack notes manager
+                  with clean separation between the React UI, Express backend,
+                  and Prisma data layer, eliminating type mismatches and runtime
+                  surprises.
+                </p>
+                <a
+                  href="https://github.com/AlyKazani04/notes-fullstack"
+                  target="_blank"
+                >
+                  Check it out →
+                </a>
+              </div>
+              <div>
+                <img
+                  class="project-img"
+                  src="./demo/note-proj.png"
+                  alt="Fullstack Notes Site"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="image-modal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="modal-content" />
+        </div>
       </section>
     </main>
 
