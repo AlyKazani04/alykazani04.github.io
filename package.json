@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "keywords": [
+    "portfolio"
+  ],
+  "homepage": "https://github.com/AlyKazani04/alykazani04.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/AlyKazani04/alykazani04.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyKazani04/alykazani04.github.io.git"
+  },
+  "license": "GPL-3.0-only",
+  "author": "AlyKazani04",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}
