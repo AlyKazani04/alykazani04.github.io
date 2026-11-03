@@ -3,12 +3,43 @@ html,
   text-wrap: wrap;
 }
 
+body {
+  width: 90%;
+  margin: auto;
+}
+
+li {
+  line-height: 1.5rem;
+}
+
+.about {
+  .resume-iframe {
+    display: none;
+    height: 500px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .toggle-checkbox {
+    display: none;
+  }
+
+  .toggle-checkbox:checked~.resume-iframe {
+    display: block;
+  }
+
+  .toggle-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #004b3f;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    user-select: none;
+  }
+}
 
 footer {
   display: inline-block;
   margin-top: 1rem;
-
-  a {
-    margin-right: 2rem;
-  }
 }
